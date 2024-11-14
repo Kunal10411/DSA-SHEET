@@ -28,7 +28,10 @@ def quick_sort(arr, low, high):
 
 def quick_sort_main(arr):
     quick_sort(arr, 0, len(arr) - 1)
+
     return arr
+    
+    
 
 # Example usage
 arr = [4, 6, 2, 5, 7, 9, 1, 3]
