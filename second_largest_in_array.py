@@ -2,16 +2,16 @@
 
 
 def largest(arr):
+    n=len(arr)
     slarge=-1
     large=arr[0]
-    for i in range(1,n):
+    for i in range(0,n):
         if arr[i]>large:
+            slarge=large
             large=arr[i]
-    return large
-
-    for j in range(0,n):
-        if arr[j]>slarge and arr[j]!=large:
-            arr[j]=slarge
+    
+        elif arr[i]>slarge and arr[i]!=large:
+            slarge=arr[i]
     return slarge        
 
 
@@ -21,6 +21,6 @@ for _ in range(n):
     x=int(input("enter the elements:\n"))
     arr.append(x)
     print(arr)
-print("largest is:",largest(arr))
+
 print("secordlargest is:",largest(arr))
     
