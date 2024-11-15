@@ -1,10 +1,11 @@
 def check(arr):
+    n=len(arr)
+    
     for i in range(1,n):
-        if arr[i]>=arr[0]:
-            return True
-        
-        else:
+        if arr[i]<arr[i-1]:
             return False
+        
+    return True
 
 
 
@@ -16,7 +17,7 @@ for i in range(n):
     arr.append(ele)
     print(arr)
 
-if check(arr)==True:
+if check(arr):
     print("the array is sorted")
 
 else:
