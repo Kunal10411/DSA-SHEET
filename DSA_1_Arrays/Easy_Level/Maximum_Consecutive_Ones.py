@@ -1,3 +1,5 @@
+#Given an array that contains only 1 and 0 return the count of maximum consecutive ones in the array.
+
 def Cons(arr):
     n=len(arr)
     maxi=0
