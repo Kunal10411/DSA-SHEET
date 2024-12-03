@@ -1,3 +1,9 @@
+#  Given an array of size n, sort the array using Merge Sort.
+
+#Example 1:
+ #Input: N=5, arr[]={4,2,1,6,7}
+# Output: 1,2,4,6,7,
+
 def merge_sort(arr, low, high):
     # Base case: if there's only one element, it's already sorted
     if low < high:
