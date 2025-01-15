@@ -1,4 +1,5 @@
-#Given an array of size N. Find the highest and lowest frequency element.
+# Given an array of size N. Find the highest and lowest frequency element.
+
 #Example 1:
 #Input: array[] = {10,5,10,15,10,5};
 #Output: 10 15

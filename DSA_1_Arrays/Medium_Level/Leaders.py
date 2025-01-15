@@ -10,7 +10,7 @@ def leaders(arr):
         if arr[i] > max_from_right:
             max_from_right=arr[i]
             arr2.append(max_from_right)
-    return arr[n-1]and arr2        
+    return  arr2        
 
 
 
