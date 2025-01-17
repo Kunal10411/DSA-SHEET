@@ -10,9 +10,11 @@
 # Index 1 is the smallest index such that arr[1] >= x.
 
 def lowerbound(arr,n):
+    res=[]
     for i in range(n-1):
-        if arr[i]==x-1:
-            return arr[i]
+        if arr[i]<x:
+            res.append(arr[i])
+    return max(res)
 
 
 
